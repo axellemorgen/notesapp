@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <domain-config>
+        <domain name="sharedpref" includeSubdomains="true">
+            <exclude path="*" />
+        </domain>
+        <domain name="file" includeSubdomains="true">
+            <exclude path="*" />
+        </domain>
+        <domain name="database" includeSubdomains="true">
+            <exclude path="notes_database" />
+        </domain>
+    </domain-config>
+</data-extraction-rules>
